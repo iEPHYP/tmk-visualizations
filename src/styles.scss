@@ -1,0 +1,120 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "fonts.scss";
+@import "./WebIcons.scss";
+@import "colors";
+@import "material-theme.scss";
+@import "buttons.scss";
+@import "./tmk-scroll-theme.scss";
+@import "./app/common-components/common-components.scss";
+@import "~ngx-toastr/toastr";
+@import "../node_modules/dragula/dist/dragula.css";
+html,
+body {
+    // width: 1920px;
+    // height: 1080px;
+    padding: 0;
+    margin: 0;
+    background: #000;//$background;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    height: 100%;
+    min-width: 100%;
+    font-family: Roboto, Tahoma;
+    font-size: 13px;
+    overflow: auto;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.muted {
+    opacity: 0.5;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+[routerLink] {
+    outline: none !important;
+    cursor: pointer;
+}
+
+mat-select {
+    &.no-mat-things {
+        padding: 0;
+        .mat-select-trigger {
+            height: auto;
+        }
+        .mat-select-value {
+            position: unset;
+        }
+        .mat-select-arrow,
+        .mat-select-placeholder,
+        .mat-select-underline {
+            display: none;
+        }
+        .mat-select-value-text {
+            white-space: normal;
+            overflow: unset;
+            line-height: unset;
+            text-overflow: unset;
+        }
+    }
+}
+
+.example-panel-dark-blue .mat-select-content {
+    background: rgb(47, 54, 65);
+}
+
+mat-icon,
+.mat-icon {
+    g,
+    path,
+    svg,
+    polygon,
+    rect {
+        fill: currentColor;
+    }
+    display: flex !important;
+    flex: none;
+}
+
+.spacer {
+    flex: auto;
+}
+
+// Add this to your global stylesheet after your theme setup
+.without-background .mat-dialog-container {
+    background: none;
+}
+
+// Page menu common styles.
+.menu-block {
+    background: $background-toned;
+    height: 63px;
+    margin: 0 1px;
+    display: flex;
+    align-items: center;
+    padding: 6px 10px;
+    flex: 0 0 auto;
+    &.width-auto {
+        min-width: unset;
+    }
+    &:first-child {
+        margin-left: 0;
+    }
+    &.active {
+        background: $background-active;
+        .divider {
+            background: $background;
+        }
+    }
+    &.accent {
+        background: $background-accent;
+    }
+}

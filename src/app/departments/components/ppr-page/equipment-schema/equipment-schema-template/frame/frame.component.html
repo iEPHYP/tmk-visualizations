@@ -1,0 +1,4 @@
+<svg:g *ngIf="frame.fillingness > 0">
+    <svg:use [attr.xlink:href]="'#frame-' + frame.id" [style.transform]="'scale(1, ' + frame.fillingness + ')'" style="transform-origin: 0% 0%;"></svg:use>
+    <svg:use [attr.xlink:href]="'#frame-line-' + frame.id"></svg:use>
+</svg:g>

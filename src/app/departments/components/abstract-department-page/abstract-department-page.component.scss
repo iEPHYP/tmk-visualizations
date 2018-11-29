@@ -1,0 +1,44 @@
+@import "./../../departments.scss";
+
+@include department;
+
+:host {
+    position: relative;
+}
+
+.left-col {
+    width: 794px;
+}
+
+.right-col {
+    flex: 1 0 auto;
+}
+
+.square {
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.blocks-demo {
+    display: flex;
+    flex: none;
+}
+
+.blocks {
+    display: flex;
+    justify-content: space-between;
+
+    .block-group {
+        display: flex;
+        cursor: pointer;
+    }
+}
+
+.schema-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px 0px;
+}

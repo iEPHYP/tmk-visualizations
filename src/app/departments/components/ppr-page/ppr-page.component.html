@@ -1,0 +1,55 @@
+<div class="info">Динамичные схемы разработаны на svg + angular</div>
+<div class="info">Можно перейти на вкладку графики</div>
+<div class="info">Графики разработаны на d3js v4</div>
+
+
+<div class="page-header">
+    <button class="button" (click)="goBack()">
+        <mat-icon svgIcon="tmk:shrink"></mat-icon>
+    </button>
+    <button [ngClass]="{active: mode == modes.schema}" class="button" (click)="mode = modes.schema; navigate()">Мнемосхема</button>
+    <button [ngClass]="{active: mode == modes.graph}" class="button" (click)="mode = modes.graph; navigate()">График</button>
+</div>
+
+<div class="page-content">
+    <div class="filters">
+        <filter-list [dataSource]="facilitiesDataSource" (onItemSelected)="click($event, 'facility')" [selectDefaultItem]="selectDefaultFacility"
+            title="Установки" style="order: 1">
+            <ng-template #titleTemplate let-item="item">
+                <div class="title without-border">
+                    <div class="caption">{{item?.data?.title}}</div>
+                </div>
+            </ng-template>
+            <ng-template #headerTemplate let-title="title">
+                {{title}}
+            </ng-template>
+        </filter-list>
+
+        <filter-list [dataSource]="equipmentsDataSource" (onItemSelected)="click($event, 'equipment')" [selectDefaultItem]="selectDefaultEquipment"
+            [ngStyle]="{display: ((selectedFacility?.data?.mainRoute && mode == modes.schema && !showDetailedChart) || (equipmentsDataSource?.data?.length == 0)) ? 'none' : 'block' }"
+            title="Оборудование" class="shadow" style="order: 2">
+            <ng-template #titleTemplate let-item="item">
+                <div class="title without-border">
+                    <div class="caption">{{item?.data?.title}}</div>
+                </div>
+            </ng-template>
+            <ng-template #headerTemplate let-title="title">
+                {{title}}
+            </ng-template>
+        </filter-list>
+
+        <filter-list [dataSource]="indicatorsDataSource" (onItemSelected)="click($event, 'indicator')" [selectDefaultItem]="selectDefaultIndicator"
+            title="Тех. параметры" class="shadow" style="order: 3" [ngStyle]="{display: showDetailedChart ? 'block' : 'none' }">
+            <ng-template #titleTemplate let-item="item">
+                <div class="title without-border">
+                    <div class="caption">{{item?.data?.title}}</div>
+                </div>
+            </ng-template>
+            <ng-template #headerTemplate let-title="title">{{title}}
+            </ng-template>
+        </filter-list>
+    </div>
+    <div class="contents">
+        <router-outlet></router-outlet>
+    </div>
+</div>

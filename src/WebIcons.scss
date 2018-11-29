@@ -1,0 +1,79 @@
+$icon-web-clock: "\ea01";
+$icon-web-info: "\ea02";
+$icon-web-loop: "\ea03";
+$icon-web-sdu: "\ea05";
+$icon-web-tick-circle: "\ea04";
+$icon-web-warning: "\ea06";
+
+@font-face {
+    font-family: WebIcons;
+    src: url("/assets/icons/WebIcons.eot");
+    src: url("/assets/icons/WebIcons.eot?#iefix") format("embedded-opentype"), url("/assets/icons/WebIcons.woff2") format("woff2"), url("/assets/icons/WebIcons.woff") format("woff"), url("/assets/icons/WebIcons.ttf") format("truetype"), url("/assets/icons/WebIcons.svg#WebIcons") format("svg");
+    font-style: normal;
+    font-weight: 400;
+}
+
+%icon {
+    display: inline-block;
+    transform: translate(0, 0);
+    text-rendering: auto;
+    font: normal normal 400 14px/1 WebIcons;
+    font-size: inherit;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+.icon {
+    @extend %icon;
+}
+
+.icon-lg {
+    vertical-align: -15%;
+    line-height: 0.75em;
+    font-size: 1.33333333em;
+}
+
+.icon-2x {
+    font-size: 2em;
+}
+
+.icon-3x {
+    font-size: 3em;
+}
+
+.icon-4x {
+    font-size: 4em;
+}
+
+.icon-5x {
+    font-size: 5em;
+}
+
+.icon-fw {
+    width: 1.28571429em;
+    text-align: center;
+}
+
+.icon-web-clock::before {
+    content: "\ea01";
+}
+
+.icon-web-info::before {
+    content: "\ea02";
+}
+
+.icon-web-loop::before {
+    content: "\ea03";
+}
+
+.icon-web-sdu::before {
+    content: "\ea05";
+}
+
+.icon-web-tick-circle::before {
+    content: "\ea04";
+}
+
+.icon-web-warning::before {
+    content: "\ea06";
+}

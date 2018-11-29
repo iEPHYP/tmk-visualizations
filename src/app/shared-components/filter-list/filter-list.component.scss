@@ -1,0 +1,134 @@
+@import "colors";
+@import 'tmk-scroll-theme';
+:host {
+    display: flex;
+    flex-direction: column;
+    flex: none;
+    align-self: stretch;
+    align-items: stretch;
+    overflow: auto;
+    position: relative;
+
+    // margin-top: 48px; EPHYP ubral, a ne ya
+
+    & ::ng-deep {
+        .mCSB_container {
+            margin-right: 0;
+        }
+
+        .mCSB_scrollTools {
+            opacity: 0 !important;
+        }
+    }
+
+    &.lighter .rows {
+        background: #474d56;
+    }
+
+    &.shadow {
+        overflow: visible;
+    }
+
+    &.shadow .rows {
+        box-shadow: 0 3px 6px #111;
+    }
+
+    &.centered {
+        .title {
+            align-items: center;
+            padding: 0 10px;
+        }
+    }
+    &.hide-header {
+        .header {
+            display: none;
+        }
+    }
+    &.grow {
+        flex-grow: 1;
+    }
+    &.no-borders .rows {
+        .row, .title {
+            border: none;
+        }
+    }
+}
+
+.rows {
+    display: flex;
+    flex-direction: column;
+    background: #383A43;
+    flex: auto;
+    overflow-y: auto;
+    max-height: 100vh;
+    @include tmk-scroll;
+}
+
+.row {
+    display: flex;
+    flex: none;
+
+    // border-left: 1px solid #000;
+    // border-right: 1px solid #000;
+    &:first-child {
+        border-top: 1px solid #000;
+    }
+
+    &:last-child {
+        border-bottom: 1px solid #000;
+    }
+}
+
+.buttons,
+.title {
+    display: flex;
+}
+
+.buttons ::ng-deep {
+    .button {
+        width: 35px;
+        height: 35px;
+        background: #383A43;
+        overflow: hidden;
+        padding: 5px;
+        border: 1px solid #000;
+
+        &:first-child {
+            border-left: none;
+        }
+    }
+}
+
+.header {
+    color: #8A949E;
+    font: 400 14px Roboto;
+
+    //height: 54px;
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    justify-content: flex-start;
+    position: sticky;
+    top: 0;
+    flex: none;
+}
+
+.title {
+    flex: auto;
+    background: transparent;
+    border-bottom: 2px solid $background;
+    border-right: none;
+    align-items: flex-start;
+    font: 400 12px Roboto;
+    cursor: pointer;
+    min-height: 37px;
+
+    &.active {
+        background: #2177D6;
+    }
+}
+
+.header mat-icon {
+    width: 15px;
+    height: 15px;
+}

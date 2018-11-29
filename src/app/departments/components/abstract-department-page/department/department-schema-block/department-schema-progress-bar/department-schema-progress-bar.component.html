@@ -1,0 +1,15 @@
+<div class="progress-bar">
+    <div class="tick"></div>
+    <div class="tick"></div>
+    <div class="tick"></div>
+    <div class="tick"></div>
+    <div class="tick"></div>
+    <div class="bar">
+        <div class="progress" [ngStyle]="{width: progress[0] + '%'}" [class.danger]="progress[0] < borders[0]" [class.success]="progress[0] > borders[1]">
+            <div class="small-part"></div>
+        </div>
+    </div>
+</div>
+<div class="percent">
+    <span class="progress-amount" *ngFor="let value of progress">{{ value }}%</span>
+</div>

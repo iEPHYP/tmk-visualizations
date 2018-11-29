@@ -1,0 +1,33 @@
+@mixin department {
+    :host {
+        display: flex;
+        flex-direction: row;
+        flex: auto;
+        align-items: stretch;
+        height: 100%;
+
+        
+
+        .column {
+            display: flex;
+            flex-direction: column;
+            flex: 0 0 auto;
+            margin-right: 7px;
+            position: relative;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+
+        // ::ng-deep {
+        //     svg text, svg tspan {
+        //         font: -webkit-control !important;
+        //     }
+        // }
+    }
+}
+
+.small-font {
+    font-size: 13px;
+}

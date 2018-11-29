@@ -1,0 +1,47 @@
+:host {
+    display: flex;
+    flex: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#lines {
+    polyline,
+    line {
+        fill: none;
+        stroke: #3D5639;
+        stroke-miterlimit: 10;
+    }
+}
+
+#zones {
+    path {
+        fill: none;
+        stroke: inherit;
+        stroke-width: 3;
+        stroke-miterlimit: 10;
+    }
+
+    rect {
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+        fill: none;
+    }
+}
+
+#frames > g {
+    rect:first-child {
+        opacity: 0.2;
+        fill: #656B75;
+    }
+
+    rect:nth-child(2) {
+        fill: #656B75;
+    }
+
+    text {
+        font-family: Roboto-Regular, Roboto;
+        font-size: 14px;
+        fill: #fff;
+    }
+}

@@ -1,0 +1,3 @@
+<svg:g class="zone" *ngIf="zone.visible">
+    <use [attr.xlink:href]="'#zone-' + zone.id" [class.blink]="zone.critical"></use>
+</svg:g>

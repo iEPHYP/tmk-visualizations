@@ -1,0 +1,105 @@
+{
+    "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+    "project": {
+        "name": "tmk-web"
+    },
+    "apps": [
+        {
+            "deployUrl": "/",
+            "baseHref": "/",
+            "root": "src",
+            "outDir": "dist",
+            "assets": [
+                "assets",
+                "favicon.ico"
+            ],
+            "index": "index.html",
+            "main": "main.ts",
+            "polyfills": "polyfills.ts",
+            "test": "test.ts",
+            "tsconfig": "tsconfig.app.json",
+            "testTsconfig": "tsconfig.spec.json",
+            "prefix": "tmk",
+            "stylePreprocessorOptions": {
+                "includePaths": [
+                    "."
+                ]
+            },
+            "styles": [
+                "styles.scss",
+                "../node_modules/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css"
+            ],
+            "scripts": [
+                "../node_modules/jquery/dist/jquery.js",
+                "../node_modules/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.js",
+                "../src/assets/jquery.hypher.js",
+                "../src/assets/en-us.js"
+            ],
+            "environmentSource": "environments/environment.ts",
+            "environments": {
+                "dev": "environments/environment.ts",
+                "debug": "environments/environment.debug.ts",
+                "prod": "environments/environment.prod.ts",
+                "prod-old": "environments/environment.prod-old.ts"
+            }
+        }
+    ],
+    "e2e": {
+        "protractor": {
+            "config": "./protractor.conf.js"
+        }
+    },
+    "lint": [
+        {
+            "project": "src/tsconfig.app.json",
+            "tslintConfig": "tslint.json"
+        },
+        {
+            "project": "src/tsconfig.spec.json",
+            "tslintConfig": "tslint.json"
+        },
+        {
+            "project": "e2e/tsconfig.e2e.json",
+            "tslintConfig": "tslint.json"
+        }
+    ],
+    "test": {
+        "karma": {
+            "config": "./karma.conf.js"
+        }
+    },
+    "defaults": {
+        "styleExt": "scss",
+        "component": {
+            "spec": false
+        },
+        "class": {
+            "spec": false
+        },
+        "directive": {
+            "spec": false
+        },
+        "guard": {
+            "spec": false
+        },
+        "interface": {
+            "prefix": "I"
+        },
+        "lintFix": true,
+        "module": {
+            "spec": false
+        },
+        "pipe": {
+            "spec": false
+        },
+        "service": {
+            "spec": false
+        },
+        "serve": {
+            "port": 4600
+        },
+        "build": {
+            "namedChunks": true
+        }
+    }
+}

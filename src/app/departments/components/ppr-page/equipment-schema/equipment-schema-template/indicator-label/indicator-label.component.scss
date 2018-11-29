@@ -1,0 +1,42 @@
+@keyframes blink {
+    0% {
+        fill: #EA2F2F;
+    }
+    50% {
+        fill: #FFFFFF;
+    }
+    100% {
+        fill: #EA2F2F;
+    }
+}
+
+.value {
+    fill: #FFFFFF;
+
+    &.blink {
+        animation-name: blink;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+    }
+}
+
+.value-status {
+    // cursor: pointer;
+
+    &-rect {
+        fill: transparent;
+    }
+}
+
+.title {
+    .container {
+        display: flex;
+        height: 1px;
+        align-items: center; 
+        .text {
+            fill: #FFFFFF;
+            font-family: Roboto-Regular;
+            font-size: 15px;
+        }
+    }
+}

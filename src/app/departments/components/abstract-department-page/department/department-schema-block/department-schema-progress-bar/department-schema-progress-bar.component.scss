@@ -1,0 +1,102 @@
+@import "colors";
+
+$progress-bar-background: #000;
+$text-muted: #60656E;
+$text-muted-light: #8A949E;
+
+$success-dark: #1A802F;
+$success: #21B149;
+
+$warn-dark: #BC560A;
+$warn: #FF9733;
+
+$danger-dark: #800000;
+$danger: #DD1919;
+
+$tick-background: #9A9A9A;
+
+:host {
+    display: flex;
+    flex-direction: column;
+    height: 23px;
+    align-items: center;
+    width: 100%;
+}
+
+.progress-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    width: 52px;
+    height: 8px;
+    justify-content: space-between;
+
+    .bar {
+        position: absolute;
+        background: #000;
+        width: calc(100% - 2px);
+        height: 6px;
+        z-index: 5;
+        margin: auto;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .tick {
+        display: block;
+        height: 100%;
+        width: 1px;
+        background: $tick-background;
+    }
+}
+
+.small-part {
+    width: 0px; //9px;
+    height: 100%;
+}
+
+.progress {
+    background: $warn;
+    width: 0%; //50%;
+    height: 4px;
+    max-width: 100%;
+
+    .small-part {
+        background: $warn-dark;
+    }
+
+    &.danger {
+        background: $danger;
+
+        .small-part {
+            background: $danger-dark;
+        }
+    }
+
+    &.success {
+        background: $success;
+
+        .small-part {
+            background: $success-dark;
+        }
+    }
+}
+
+.percent {
+    font-size: 10px;
+    color: $text-muted;
+    display: flex;
+    flex: none;
+    justify-content: space-around;
+    width: 100%;
+
+    .progress-amount {
+        display: block;
+        margin: auto;
+    }
+}

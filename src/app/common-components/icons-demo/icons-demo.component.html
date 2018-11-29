@@ -1,0 +1,6 @@
+<div class="icon"
+     *ngFor="let icon of icons; let iconIndex = index">
+    <mat-icon [svgIcon]="icon"></mat-icon>
+    <span class="caption">{{icon}}</span>
+    <span class="caption">{{iconIndex + 1}}@1x.svg</span>
+</div>

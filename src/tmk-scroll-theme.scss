@@ -1,0 +1,32 @@
+.mCS-tmk-scroll{
+    .mCSB_scrollTools.mCSB_scrollTools_horizontal {
+        height: 6px;
+    }
+    .mCSB_scrollTools{ 
+        .mCSB_dragger {
+            height: 6px;
+            .mCSB_dragger_bar {
+                height: 100%;
+                border-radius: 0;
+                background: #60656e !important;
+            }
+        }
+        .mCSB_draggerRail{
+            display: none;
+        }
+    }
+}
+@mixin tmk-scroll() {
+    &::-webkit-scrollbar {
+        width:6px;
+        height: 6px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: #fff;
+    }
+    
+    &::-webkit-scrollbar-track {
+        background:transparent;
+    }
+}

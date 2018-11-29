@@ -1,0 +1,25 @@
+<svg:foreignObject [attr.width]="config.width" [attr.height]="config.height" [style.transform]="'translate(' + config.x + 'px, ' + config.y + 'px)'">
+    <xhtml:div class="body" [style.background]="config.color" [class.active]="active">
+        <xhtml:div class="block title-block" *ngIf="config?.title">{{config.title | hyphinate}}</xhtml:div>
+        <xhtml:div class="block units-block" *ngIf="config?.units">{{ config.units }}</xhtml:div>
+
+        <xhtml:div class="block values">
+            <xhtml:div class="block">
+                <span *ngIf="config?.input" class="value">{{config.input}}</span>
+                <span *ngIf="!config?.input" class="value">-</span>
+            </xhtml:div>
+
+            <xhtml:div class="block" *ngIf="config?.output">
+                <span class="value">{{config.output}}</span>
+            </xhtml:div>
+        </xhtml:div>
+
+        <xhtml:div class="block progrees-bar-block">
+            <!-- <tmk-department-schema-progress-bar *ngIf="config?.progress" [progress]="config?.progress"></tmk-department-schema-progress-bar> -->
+        </xhtml:div>
+
+        <xhtml:div class="block department-block">
+            {{config?.destination}}
+        </xhtml:div>
+    </xhtml:div>
+</svg:foreignObject>

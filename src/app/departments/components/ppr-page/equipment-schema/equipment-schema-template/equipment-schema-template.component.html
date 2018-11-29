@@ -1,0 +1,22 @@
+<svg:use xlink:href="#static-graphics"></svg:use>
+
+<svg:g class="frames">
+    <svg:g tmk-frame [frame]="frame" *ngFor="let frame of frames"></svg:g>
+</svg:g>
+
+<svg:g class="zones">
+    <svg:g tmk-zone [zone]="zone" *ngFor="let zone of zones"></svg:g>
+</svg:g>
+
+<svg:g class="labels">
+    <svg:g class="left-labels">
+        <g *ngFor="let label of leftLabels">
+            <svg:g tmk-indicator-label [label]="label" [side]="'left'" [titleWidth]="titleWidth" (onClicked)="onIndicatorClicked($event)"/>
+        </g>
+    </svg:g>
+    <svg:g class="right-labels">
+        <svg:g *ngFor="let label of rightLabels">
+            <svg:g tmk-indicator-label [label]="label" [side]="'right'" [titleWidth]="titleWidth" (onClicked)="onIndicatorClicked($event)"></svg:g>
+        </svg:g>
+    </svg:g>
+</svg:g>

@@ -1,0 +1,93 @@
+.body {
+    rect,
+    .use-rect {
+        fill: #19191E;
+    }
+    .device path,
+    use {
+        fill: #474D56;
+    }
+    .button,
+    .label-mark {
+        path,
+        .use-path {
+            fill-rule: evenodd;
+            clip-rule: evenodd;
+            fill: #474D56;
+        }
+        text,
+        .use-text {
+            fill: #8ACDFF !important;
+            fill-rule: evenodd;
+            clip-rule: evenodd;
+            font: Roboto-Bold;
+            font-size: 12px !important;
+        }
+    }
+    .status {
+        rect,
+        use {
+            fill-rule: evenodd;
+            clip-rule: evenodd;
+            fill: #474D56;
+        }
+        .empty {
+            fill: #303038;
+        }
+        .stopping {
+            fill: #DD1919;
+        }
+        .deviation {
+            fill: #FF9733;
+        }
+        .normal {
+            fill: #21B149;
+        }
+        .not-work {
+            fill: #FFF;
+        }
+    }
+    g.device:hover, // g.status:hover,
+    g.button:hover {
+        cursor: pointer;
+        path,
+        rect,
+        use {
+            fill: #8A949E;
+        }
+    }
+    .text {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        line-height: 1;
+        color: #8ACDFF;
+        font-size: 12px;
+        font-family: 'Roboto-Regular';
+    }
+    &.disabled {
+        g.device:hover,
+        g.status:hover,
+        g.button:hover {
+            cursor: auto;
+            path,
+            rect,
+            use {
+                fill: #474D56
+            }
+        }
+        .button,
+        .label-mark {
+            text,
+            .use-text {
+                fill: #8A949E !important;
+            }
+        }
+        .text {
+            color: #FFFFFF;
+        }
+    }
+    rect.layout {
+        fill-opacity: 0;
+    }
+}

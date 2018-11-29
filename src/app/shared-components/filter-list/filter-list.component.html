@@ -1,0 +1,28 @@
+<ng-template #defaultHeaderTemplate>
+    <mat-icon svgIcon="tmk:filter"></mat-icon>
+    {{ title }}
+</ng-template>
+<!-- <ng-template [tmkLoader]="loaderName"></ng-template> -->
+<div class="header">
+    <ng-container *ngTemplateOutlet="headerTemplate || defaultHeaderTemplate; context: { title: title}"></ng-container>
+</div>
+<div class="rows" #rowsWrapper>
+    <ng-container *ngFor="let row of data">
+        <ng-container *ngTemplateOutlet="rowTemplate; context: {
+            buttons: buttonsTemplate,
+            title: titleTemplate,
+            item: row
+        }"></ng-container>
+    </ng-container>
+</div>
+
+<ng-template #rowTemplate let-buttonsTemplate="buttons" let-titleTemplate="title" let-item="item">
+    <div class="row {{rowClassName}}" (click)="clickItem(item)">
+        <div class="buttons">
+            <ng-container *ngTemplateOutlet="buttonsTemplate; context: {item: item}"></ng-container>
+        </div>
+        <div class="title" [class.active]="item.active">
+            <ng-container *ngTemplateOutlet="titleTemplate; context: {item: item}"></ng-container>
+        </div>
+    </div>
+</ng-template>

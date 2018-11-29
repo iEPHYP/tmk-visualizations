@@ -1,0 +1,13 @@
+:host {
+    position: relative;
+    display: flex;
+    margin-top: 35px;
+    flex: auto;
+    align-items: stretch;
+    background: #212A33;
+
+    ::ng-deep svg {
+        height: 100%;
+        width: 100%;
+    }
+}

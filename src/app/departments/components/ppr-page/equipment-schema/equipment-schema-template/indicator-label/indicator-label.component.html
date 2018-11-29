@@ -1,0 +1,40 @@
+<svg:g class="body" *ngIf="label.visible">
+    <svg:g [style.transform]="translate(label)" class="label">
+        <svg:g class="value-status" (click)="statusClicked()">
+            <rect class="value-status-rect" width="102" height="35" [attr.x]="(side === 'left' ? -102 : 0)" y="-30"></rect>
+            <svg:text #value class="value" [class.blink]="warned" [attr.x]="(side === 'left' ? -1 : 1) * 50.5" y="-6" text-anchor="middle"
+                font-family="'Roboto-Regular'" font-size="26">{{format(label.value)}}</svg:text>
+            <svg:g class="status">
+                <svg:line fill="none" stroke="#47515E" stroke-width="3" stroke-miterlimit="10" x1="0" y1="0" [attr.x2]="(left ? -1 : 1) * 101"
+                    y2="0" />
+                <svg:line fill="none" [attr.stroke]="lineColor" stroke-width="3" stroke-miterlimit="10" [attr.x1]="(left ? -1 : 0) * 101"
+                    y1="0" [attr.x2]="(left ? -1 : 1) * statusWidth" y2="0" />
+                <line [attr.x1]="left ? -101 : 101" [attr.x2]="left ? -101 : 101" y1="-4.5" y2="4.5" stroke-width="1" [attr.stroke]="edgeColor(left ? 'left' : 'right')"
+                />
+                <line x1="0" y1="-4.5" y2="4.5" stroke-width="1" [attr.stroke]="edgeColor(left ? 'right' : 'left')" />
+                <svg:text *ngIf="label.percentage != null" [attr.x]="left ? -50.5 : 50.5" transform="translate(0, 6)" y="1em" text-anchor="middle"
+                    fill="#8A949E" font-family="'Roboto-Regular'" font-size="10">
+                    {{label.percentage}}%
+                </svg:text>
+            </svg:g>
+        </svg:g>
+
+        <svg:g class="title">
+            <svg:foreignObject [attr.width]="titleWidth" height="1" [attr.transform]="'translate(' + (side === 'left' ? -titleWidth - 114 : 114) + ', -14)'">
+                <xhtml:div class="container" [style.justify-content]="left ? 'flex-end' : 'flex-start'">
+                    <xhtml:div class="text" [style.text-align]="left ? 'right' : 'left'">
+                        {{label.title}}
+                    </xhtml:div>
+                </xhtml:div>
+            </svg:foreignObject>
+
+            <!-- <svg:g [attr.transform]="'translate(' + (114 * (side === 'left' ? -1 : 1)) + ' ,0)'">
+                <svg:text [attr.text-anchor]="left ? 'end' : 'start'" [attr.data-id]="label.id" fill="#FFFFFF" font-family="'Roboto-Regular'"
+                    font-size="15">
+                    {{label.title}}
+                </svg:text>
+            </svg:g> -->
+        </svg:g>
+    </svg:g>
+    <svg:use [attr.xlink:href]="'#line-' + label.id"></svg:use>
+</svg:g>

@@ -1,0 +1,8 @@
+
+<div class="charts">
+    <tmk-indicator-preview-chart  [isNormal]="chart.isNormal" [title]="chart.title" [data]="chart.items" [measurement]="chart.measurement" [periodType]="chart.periodType" *ngFor='let chart of charts'>       
+    </tmk-indicator-preview-chart>
+</div>
+<ng-template [tmkLoader]="loaderName"></ng-template>
+
+<!-- (onChartClicked)="selectChart(chart)" -->

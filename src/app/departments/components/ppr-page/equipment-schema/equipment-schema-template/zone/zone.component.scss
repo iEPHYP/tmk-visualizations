@@ -1,0 +1,23 @@
+@keyframes locale-blink {
+    0% {
+        stroke: #EA2F2F;
+    }
+    50% {
+        stroke: #21B149;
+    }
+    100% {
+        stroke: #EA2F2F;
+    }
+}
+
+.zone {
+    use {
+        stroke: #21B149;
+
+        &.blink {
+            animation-name: locale-blink;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+        }
+    }
+}

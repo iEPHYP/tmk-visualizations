@@ -1,0 +1,34 @@
+.btn {
+    border: none;
+    background: transparent;
+    padding: 15px;
+    font: 900 12px Roboto;
+    text-shadow: 1px 1px 1px rgba(0,0,0, .5);
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+
+    &:disabled {
+        background: linear-gradient(90deg, #999999, #949AA8) !important;
+    }
+
+    &.btn-default {
+        background: linear-gradient(90deg, #999999, #949AA8);
+    }
+
+    &.btn-success {
+        background: linear-gradient(90deg, #21B149, #47C05A);
+    }
+
+    &.btn-danger{
+        background: linear-gradient(90deg, #EA3F3F, #F84A45);
+    }
+
+    &.btn-warning {
+        background: linear-gradient(90deg, #FF9733, #FFA333);
+    }
+
+    &.btn-caps {
+        text-transform: uppercase;
+    }
+}

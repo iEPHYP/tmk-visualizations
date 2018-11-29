@@ -1,0 +1,38 @@
+<div *ngIf="chart" class="chart-expanded">
+    <tmk-indicator-detailed-chart [title]="chart.title" [isNormal]="chart.isNormal" [measurement]="chart.measurement" [periodType]="chart.periodType" [data]="chart.items" (onClose)="closeChart()" (onDateBoxClicked)="scrollTable($event)">       
+    </tmk-indicator-detailed-chart>
+</div>
+
+<div class="chart-table" *ngIf="tableData">
+    <div class="custom-table">
+        <div class="table-headers">
+            <div class="col">
+                Показатели
+            </div>
+            <div class="col" [ngClass]="{active: first}" *ngFor="let d of tableData.header; let first = first;">
+                {{ d | periodType:tableData.periodType }}
+            </div>
+        </div>
+        <div class="table-body">
+            <div class="row" *ngFor="let item of tableData.items">
+                <div class="col">
+                    {{item.title}}
+                </div>
+                <div class="col {{even ? 'dark-':''}}gray" [ngClass]="{active: first}" *ngFor="let val of item.values; let even = even; let first = first;">
+                    <ng-template [ngIf]="item.hasTwoValue">
+                    {{val.min | number:'1.2-2'}} <br> {{val.max | number:'1.2-2'}}
+                    </ng-template>
+                    <ng-template [ngIf]="!item.hasTwoValue">{{val | number:'1.2-2'}}</ng-template>                  
+                </div>
+            </div>
+            <div class="row fill">
+                <div class="col"></div>
+                <div class="col {{even ? 'dark-':''}}gray" [ngClass]="{active: first}" *ngFor="let h of tableData.header; let even = even; let first = first;"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+  <ng-template [tmkLoader]="loaderName"></ng-template>

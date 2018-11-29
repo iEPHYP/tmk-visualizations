@@ -1,0 +1,14 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 auto;
+    height: 100%;
+    padding: 7px;
+    position: relative;
+}
+
+::ng-deep ng-component {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}

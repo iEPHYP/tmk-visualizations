@@ -1,0 +1,128 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.chart-expanded {
+    margin-top: 34px;
+}
+
+.chart-table {
+    margin-top: 25px;
+    display: flex;
+    flex-grow: 1;
+    overflow-x: auto;
+}
+
+.custom-table {
+    display: flex;
+    flex-direction: column;
+
+    .table {
+        &-headers {
+            display: inline-flex;
+            background-color: #20222e;
+
+            .col {
+                border-top: none;
+                background-color: transparent;
+                &.active {
+                    border-top: 2px solid rgb(41, 126, 204);
+                }
+            }
+        }    
+        
+        &-body {
+            display: inline-flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+    }
+
+    .row {
+        display: flex;
+
+        &.fill {
+            flex-grow: 1;
+            .col.active {
+                border-bottom: 2px solid rgb(41, 126, 204);
+            }
+        }
+
+        &:first-child {
+            .col {
+                border-top: none;
+            }
+        }
+    }
+
+    .col {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 35px;
+        width: 100px;
+
+        flex-shrink: 0;
+        padding: 0 7px 0 7px;
+        background-color: #3a3f4f;
+        
+        border-top: 1px solid #000;
+        border-bottom: 1px solid #000;
+        &.dark-gray,
+        &.gray {
+            color: #19191e;
+        }
+        &.dark-gray {
+            background-color: #e8e8e8;
+            border-top: 1px solid #bec1c3;
+            border-bottom: 1px solid #888b8d;
+        }
+        &.gray {
+            background-color: #bec1c3;
+            border-top: 1px solid #a7a7a6;
+            border-bottom: 1px solid #8d8d8c;
+        }
+
+        &:first-child {
+            text-align: left;
+        }
+
+        &.active {
+            border-left: 2px solid rgb(41, 126, 204);
+            border-right: 2px solid rgb(41, 126, 204);
+        }
+    }
+
+    // width: auto;
+    // overflow-x: auto;
+    // height: auto;
+    // flex-grow: 1;
+    // display: flex;
+    // flex-direction: column;
+
+    // .table-headers .col, 
+    // .table-body .col {
+    //     flex-basis: 100px;
+    //     // width: 100px;
+    //     text-align: center;
+    //     word-wrap: none;
+    //     flex-shrink: 0;
+    //     display: block;
+
+    //     &:first-child {
+    //         text-align: left;
+    //     }
+    // }
+
+    // .table-content {
+    //     flex-grow: 1;
+    //     display: flex;
+    //     flex-direction: column;
+    // }
+
+    // .table-body {
+    //     flex-grow: 1;
+    // }
+}

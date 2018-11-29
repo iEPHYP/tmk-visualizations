@@ -1,0 +1,54 @@
+.transparent-line {
+    fill: none;
+    stroke: transparent !important;
+    stroke-width: 8;
+}
+
+.lines {
+    g.line-container {
+        use.line {
+            cursor: pointer;
+            stroke: #473E3A;
+            fill: #473E3A;
+        }
+        use.line-hidden-text {
+            opacity: 0;
+        }
+        &.active {
+            use.line {
+                stroke: #A57C5B;
+                fill: #A57C5B;
+            }
+            use.line-hidden-text {
+                opacity: 1;
+            }
+        }
+    }
+}
+
+#lines g.line {
+    path,
+    polyline,
+    line {
+        stroke: inherit; // fill: none;
+        stroke-linecap: square;
+        stroke-miterlimit: 10;
+    }
+    polygon {
+        stroke: none;
+        fill: inherit;
+    }
+    text,
+    tspan {
+        stroke: none;
+        fill: inherit;
+        font-family: 'Roboto-Regular';
+        font-size: 12px;
+    }
+    text.line-hidden-text {
+        fill: #A57C5B;
+        font-family: 'Roboto-Regular';
+        font-size: 12px;
+        stroke: none;
+    }
+}

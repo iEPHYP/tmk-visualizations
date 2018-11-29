@@ -1,0 +1,90 @@
+@import "colors";
+:host {
+    height: 100%;
+}
+
+.info {
+    text-align: center;
+    font-size: 10px;
+}
+
+.page-header {
+    display: flex;
+    .button {
+        margin: 1px;
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+        line-height: 35px;
+        padding: 0 15px;
+        height: 35px;
+        outline: 0;
+        border: 0;
+        cursor: pointer;
+        background-color: #383A43;
+        &.active {
+            background-color: #2177d6;
+        }
+    }
+}
+
+.page-content {
+    display: flex;
+    flex: auto; // height: 100%;
+    min-height: 100%;
+    flex-direction: row;
+    overflow: auto;
+}
+
+.filters {
+    display: flex;
+    flex: none;
+    position: relative;
+    .toggles {
+        display: flex;
+        position: absolute;
+        top: 0px;
+    }
+    filter-list {
+        width: 181px;
+    }
+    .title {
+        display: flex;
+        flex: auto;
+        padding-left: 7px;
+        align-items: center;
+        border-left-style: solid;
+        border-left-width: 3px;
+        height: 100%;
+        &.without-border {
+            border-left-width: 0;
+        }
+        .caption {
+            flex: auto;
+            margin-right: 10px;
+            color: #fff;
+            font: 400 12px Roboto;
+            text-align: left;
+        }
+        .units {
+            color: #8A949E;
+            font: 400 10px Roboto;
+            flex: none;
+            text-align: right;
+        }
+        &.active {
+            background-color: #2177d6;
+        }
+    }
+}
+
+filter-list {
+    width: 233px;
+}
+
+.contents {
+    overflow-x: auto; // height: 100%;
+    width: 100%;
+    overflow-y: auto;
+    display: flex;
+}

@@ -1,0 +1,102 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" viewBox="0 0 1725 929">
+
+    <g class="labels silo-towers">
+        <g class="left-labels">
+            <g *ngFor="let label of leftLabels; let i = index" [style.transform]="translate(label, i)">
+                <svg:g tmk-indicator-label [label]="label" [side]="'left'" [titleWidth]="titleWidth" transform="translate(77.3, -22)" />
+                <g class="silo-tower">
+                    <use xlink:href="#silo-tower"></use>
+                    <g class="level" transform="translate(0, 409.4) scale(1, -1)">
+                        <rect x="18" y="0" class="st1185" width="118.5" [attr.height]="getLevel(label)" />
+                    </g>
+                    <use xlink:href="#silo-tower-bars"></use>
+                </g>
+            </g>
+        </g>
+        <g class="right-labels">
+            <svg:g tmk-indicator-label [label]="label" [side]="'right'" [titleWidth]="titleWidth" *ngFor="let label of rightLabels; let i = index" [style.transform]="translate(label, i, 800)"
+            />
+        </g>
+    </g>
+
+    <defs>
+        <g id="silo-tower">
+            <g>
+                <rect x="0" y="6.3" class="st1179" width="154.6" height="4.3" />
+            </g>
+            <g>
+                <defs>
+                    <rect id="SVGID_1457_" x="8.6" y="13.4" width="137.3" height="91.9" />
+                </defs>
+                <clipPath id="SVGID_5_">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#SVGID_1457_" style="overflow:visible;" />
+                </clipPath>
+                <linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="11.9772" y1="59.3727" x2="145.9395" y2="59.3635">
+                    <stop offset="0" style="stop-color:#616166" />
+                    <stop offset="0.21" style="stop-color:#9B9B9B" />
+                    <stop offset="1" style="stop-color:#48484F" />
+                </linearGradient>
+                <rect x="8.6" y="13.4" style="clip-path:url(#SVGID_5_);fill:url(#SVGID_6_);" width="137.3" height="91.9" />
+            </g>
+            <g>
+                <rect x="0" y="412.1" class="st1179" width="154.6" height="4.3" />
+            </g>
+            <g>
+                <defs>
+                    <rect id="SVGID_1460_" x="8.6" y="114.9" width="137.3" height="91.9" />
+                </defs>
+                <clipPath id="SVGID_23_">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#SVGID_1460_" style="overflow:visible;" />
+                </clipPath>
+                <linearGradient id="SVGID_24_" gradientUnits="userSpaceOnUse" x1="11.9772" y1="160.8167" x2="145.9395" y2="160.8167">
+                    <stop offset="0" style="stop-color:#616166" />
+                    <stop offset="0.21" style="stop-color:#9B9B9B" />
+                    <stop offset="1" style="stop-color:#48484F" />
+                </linearGradient>
+                <rect x="8.6" y="114.9" style="clip-path:url(#SVGID_23_);fill:url(#SVGID_24_);" width="137.3" height="91.9" />
+            </g>
+            <g>
+                <defs>
+                    <rect id="SVGID_1463_" x="8.6" y="216.3" width="137.3" height="91.9" />
+                </defs>
+                <clipPath id="SVGID_25_">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#SVGID_1463_" style="overflow:visible;" />
+                </clipPath>
+                <linearGradient id="SVGID_26_" gradientUnits="userSpaceOnUse" x1="11.9772" y1="262.2652" x2="145.9395" y2="262.2652">
+                    <stop offset="0" style="stop-color:#616166" />
+                    <stop offset="0.21" style="stop-color:#9B9B9B" />
+                    <stop offset="1" style="stop-color:#48484F" />
+                </linearGradient>
+                <rect x="8.6" y="216.3" style="clip-path:url(#SVGID_25_);fill:url(#SVGID_26_);" width="137.3" height="91.9" />
+            </g>
+            <g>
+                <defs>
+                    <rect id="SVGID_1466_" x="8.6" y="317.8" width="137.3" height="91.9" />
+                </defs>
+                <clipPath id="SVGID_27_">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#SVGID_1466_" style="overflow:visible;" />
+                </clipPath>
+                <linearGradient id="SVGID_28_" gradientUnits="userSpaceOnUse" x1="11.9772" y1="363.7137" x2="145.9395" y2="363.7137">
+                    <stop offset="0" style="stop-color:#616166" />
+                    <stop offset="0.21" style="stop-color:#9B9B9B" />
+                    <stop offset="1" style="stop-color:#48484F" />
+                </linearGradient>
+                <rect x="8.6" y="317.8" style="clip-path:url(#SVGID_27_);fill:url(#SVGID_28_);" width="137.3" height="91.9" />
+            </g>
+            <linearGradient id="SVGID_29_" gradientUnits="userSpaceOnUse" x1="8.6329" y1="457.5202" x2="145.9419" y2="457.5202">
+                <stop offset="0" style="stop-color:#616166" />
+                <stop offset="0.21" style="stop-color:#9B9B9B" />
+                <stop offset="1" style="stop-color:#48484F" />
+            </linearGradient>
+            <polygon style="fill:url(#SVGID_29_);" points="68.6,495.8 8.6,419.2 145.9,419.2 86,495.8   " />
+            <line class="st1186" x1="53.7" y1="2" x2="100.9" y2="2" />
+            <path class="st828" d="M75.9,478.5H25.4c-5.5,0-10-4.5-10-10v-23.9c0-5.5,4.5-10,10-10h50.5c5.5,0,10,4.5,10,10v23.9 C85.9,474,81.4,478.5,75.9,478.5z"
+            />
+        </g>
+        <g id="silo-tower-bars">
+            <rect x="0" y="209.2" class="st1179" width="154.6" height="4.3" />
+            <rect x="0" y="310.7" class="st1179" width="154.6" height="4.3" />
+            <rect x="0" y="107.8" class="st1179" width="154.6" height="4.3" />
+        </g>
+    </defs>
+</svg>
