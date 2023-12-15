@@ -37,7 +37,7 @@
         o.p +
         "" +
         e +
-        "." +
+        "." + "tmk-visualizations/" + 
         {
           common: "e47ef6af33cfb2174934",
           "department-1.module": "4730ae59901e5cef5804",
