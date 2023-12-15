@@ -8,7 +8,7 @@
             "deployUrl": "/",
             "baseHref": "/",
             "root": "src",
-            "outDir": "dist",
+            "outDir": "dist/tmk-visualizations",
             "assets": [
                 "assets",
                 "favicon.ico"
