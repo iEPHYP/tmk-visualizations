@@ -4,7 +4,7 @@ export let mocks = (equipmentId: number): Indicator[] => {
     return [
         new Indicator({
             'id': '105001105001',
-            'title': 'Уровень карналлита',
+            'title': 'Carnalyte level',
             'value': null,
             'percentage': null,
             'equipmentId': 105001,
@@ -18,7 +18,7 @@ export let mocks = (equipmentId: number): Indicator[] => {
         }),
         new Indicator({
             'id': '105001105002',
-            'title': 'Масса карналита в Силосе',
+            'title': 'Carnalite weight in silo',
             'value': null,
             'percentage': null,
             'equipmentId': 105001,
@@ -32,7 +32,7 @@ export let mocks = (equipmentId: number): Indicator[] => {
         }),
         new Indicator({
             'id': '105002105001',
-            'title': 'Уровень карналлита',
+            'title': 'Carnalyte level',
             'value': null,
             'percentage': null,
             'equipmentId': 105002,
@@ -46,7 +46,7 @@ export let mocks = (equipmentId: number): Indicator[] => {
         }),
         new Indicator({
             'id': '105002105002',
-            'title': 'Масса карналита в Силосе',
+            'title': 'Carnalite weight in silo',
             'value': null,
             'percentage': null,
             'equipmentId': 105002,
@@ -60,7 +60,7 @@ export let mocks = (equipmentId: number): Indicator[] => {
         }),
         new Indicator({
             'id': '105003105001',
-            'title': 'Уровень карналлита',
+            'title': 'Carnalyte level',
             'value': null,
             'percentage': null,
             'equipmentId': 105003,
@@ -74,7 +74,7 @@ export let mocks = (equipmentId: number): Indicator[] => {
         }),
         new Indicator({
             'id': '105003105002',
-            'title': 'Масса карналита в Силосе',
+            'title': 'Carnalite weight in silo',
             'value': null,
             'percentage': null,
             'equipmentId': 105003,
@@ -88,7 +88,7 @@ export let mocks = (equipmentId: number): Indicator[] => {
         }),
         new Indicator({
             'id': '105004105001',
-            'title': 'Уровень карналлита',
+            'title': 'Carnalyte level',
             'value': null,
             'percentage': null,
             'equipmentId': 105004,
@@ -102,7 +102,7 @@ export let mocks = (equipmentId: number): Indicator[] => {
         }),
         new Indicator({
             'id': '105004105002',
-            'title': 'Масса карналита в Силосе',
+            'title': 'Carnalite weight in silo',
             'value': null,
             'percentage': null,
             'equipmentId': 105004,
@@ -116,7 +116,7 @@ export let mocks = (equipmentId: number): Indicator[] => {
         }),
         new Indicator({
             'id': '105005105001',
-            'title': 'Уровень карналлита',
+            'title': 'Carnalyte level',
             'value': 14.797799491882325,
             'percentage': 53.22949457511627,
             'equipmentId': 105005,
@@ -130,7 +130,7 @@ export let mocks = (equipmentId: number): Indicator[] => {
         }),
         new Indicator({
             'id': '105005105002',
-            'title': 'Масса карналита в Силосе',
+            'title': 'Carnalite weight in silo',
             'value': 701.541830291748,
             'percentage': 37.415564282226562,
             'equipmentId': 105005,
@@ -144,7 +144,7 @@ export let mocks = (equipmentId: number): Indicator[] => {
         }),
         new Indicator({
             'id': '105006105001',
-            'title': 'Уровень карналлита',
+            'title': 'Carnalyte level',
             'value': null,
             'percentage': null,
             'equipmentId': 105006,
@@ -158,7 +158,7 @@ export let mocks = (equipmentId: number): Indicator[] => {
         }),
         new Indicator({
             'id': '105006105002',
-            'title': 'Масса карналита в Силосе',
+            'title': 'Carnalite weight in silo',
             'value': null,
             'percentage': null,
             'equipmentId': 105006,
@@ -172,7 +172,7 @@ export let mocks = (equipmentId: number): Indicator[] => {
         }),
         new Indicator({
             'id': '105007105001',
-            'title': 'Уровень карналлита',
+            'title': 'Carnalyte level',
             'value': null,
             'percentage': null,
             'equipmentId': 105007,
@@ -186,7 +186,7 @@ export let mocks = (equipmentId: number): Indicator[] => {
         }),
         new Indicator({
             'id': '105007105002',
-            'title': 'Масса карналита в Силосе',
+            'title': 'Carnalite weight in silo',
             'value': null,
             'percentage': null,
             'equipmentId': 105007,
@@ -200,7 +200,7 @@ export let mocks = (equipmentId: number): Indicator[] => {
         }),
         new Indicator({
             'id': '105008105001',
-            'title': 'Уровень карналлита',
+            'title': 'Carnalyte level',
             'value': -7.5,
             'percentage': -26.978417266187048,
             'equipmentId': 105008,
@@ -214,7 +214,7 @@ export let mocks = (equipmentId: number): Indicator[] => {
         }),
         new Indicator({
             'id': '105008105002',
-            'title': 'Масса карналита в Силосе',
+            'title': 'Carnalite weight in silo',
             'value': 2381.904,
             'percentage': 127.03488,
             'equipmentId': 105008,

@@ -41,18 +41,17 @@ import { LoaderService } from "../../../shared-components/services/loader.servic
     ]
 })
 export class PPRPageComponent implements OnInit, OnDestroy {
-    /* Режимы (Мнемосхема, Графики, Детальный график) */
     modes = Modes;
     mode = Modes.schema;
     showDetailedChart = false;
 
     dateFrom = moment(new Date());
     dateTo = moment(new Date());
-    departmentId = 0; // Цех
-    facilityId = 0; // Установка
-    equipmentId = 0; // Оборудование
-    indicatorId = 0; // Тех параметр
-    forFacility = false; // true если установка должна показать индикаторы всех его оборудовании в одной схеме или у нее нет оборудования
+    departmentId = 0;
+    facilityId = 0;
+    equipmentId = 0;
+    indicatorId = 0;
+    forFacility = false;
 
     selectedFacility: IFilterListVM<Facility>;
     selectedEquipment: IFilterListVM<Equipment>;
@@ -92,17 +91,14 @@ export class PPRPageComponent implements OnInit, OnDestroy {
                 this.dateFrom = data[1].currentStartDate.clone();
                 this.dateTo = data[1].currentEndDate.clone();
 
-                /** условия правильно если child параметер (scheme | charts) передан  */
                 if (this.route.firstChild) {
                     const url = this.route.firstChild.url["_value"];
                     this.equipmentId = +url[1].path || 0;
-                    /** из url узнаем показать ли графики или мнемосхему. по умолчанию мнемосхема */
                     if (url[0].path === "charts") {
                         this.mode = Modes.graph;
                     }
                 }
 
-                /** Если поменялся Цех, то скачиваем и инициализируем установок и оборудования этого цеха */
                 if (this.departmentId !== data[0].departmentId) {
                     this.departmentId = data[0].departmentId;
                     this.initFacilitiesDataSource();
@@ -158,10 +154,8 @@ export class PPRPageComponent implements OnInit, OnDestroy {
         this.selectedFacility = item;
         this.selectedFacility.active = true;
 
-        /** меняем список оборудования */
         this.equipmentsDataSource.init(_(item.data.equipments).clone());
 
-        /** Если у установки нет оборудования, то скачиваем индикаторы. Иначе индикаторы скачется когда выберется оборудование */
         if (
             this.selectedFacility &&
             this.selectedFacility.data.mainRoute &&
@@ -193,7 +187,6 @@ export class PPRPageComponent implements OnInit, OnDestroy {
         this.selectedIndicator = item;
         this.selectedIndicator.active = true;
 
-        /** В redux пишем состояние страницы */
         this.ngRedux.dispatch(
             this.pageActions.setPageState(
                 PageType.EquipmentIndicatorsPivotTable,
@@ -207,7 +200,6 @@ export class PPRPageComponent implements OnInit, OnDestroy {
             )
         );
 
-        /** меняем url здесь, потому что setIndicator вызывается последним */
         this.navigate();
     }
 
@@ -216,7 +208,6 @@ export class PPRPageComponent implements OnInit, OnDestroy {
         which: "facility" | "equipment" | "status" | "indicator"
     ) {
         this.loaderService.setLoading(LoaderService.PPR_PAGE_LOADER);
-        console.log("click", which);
         if (which === "facility" && +item.data.id !== this.facilityId) {
             this.setFacility(item);
         } else if (

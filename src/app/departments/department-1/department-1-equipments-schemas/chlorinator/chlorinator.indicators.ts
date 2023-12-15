@@ -3,31 +3,31 @@ import { Indicator } from '../../../components/ppr-page/equipment-schema/equipme
 export let defaultIndicatorsLeft: Indicator[] = [
     new Indicator({
         id: '106007',
-        title: 'Уровень карналита в бункере хлоратора',
+        title: 'Carnalite level in chlorinator bunker',
         translate: { x: 337, y: 83 }
     }),
     new Indicator({
         id: '106004',
-        title: 'Температура Сливная летка',
+        title: 'Discharge temperature',
         translate: { x: 337, y: 193 }
     }),
     new Indicator({
         id: '106001',
-        title: 'Температура Плавильник',
+        title: 'Melting Point',
         translate: { x: 337, y: 313 }
     }),
     new Indicator({
         id: '106002',
-        title: 'Температура ХлорКамера',
+        title: 'Chlorcamer temperature',
         translate: { x: 337, y: 433 }
     }),
     new Indicator({
         id: '106008',
-        title: 'Давление хлора в н/н №1 карн.отд.',
+        title: 'Chlorine pressure in n/n 1 karn.d.',
         translate: { x: 337, y: 543 }
     }), new Indicator({
         id: '106009',
-        title: 'Давление хлора в н/н №2 карн.отд.',
+        title: 'Chlorine pressure in n/n 2 carbons.',
         translate: { x: 337, y: 600 }
     }),
     new Indicator({
@@ -45,7 +45,7 @@ export let defaultIndicatorsLeft: Indicator[] = [
 export let defaultIndicatorsRight: Indicator[] = [
     new Indicator({
         id: '106010',
-        title: 'Масса карналита в бункере хлоратора',
+        title: 'Mass of carnalite in chlorinator bunker',
         translate: { x: 1208, y: 93 }
     }),
     new Indicator({
@@ -65,7 +65,7 @@ export let defaultIndicatorsRight: Indicator[] = [
     }),
     new Indicator({
         id: '106003',
-        title: 'Температура Миксер',
+        title: 'Mixer temperature',
         translate: { x: 1208, y: 418 }
     }),
     new Indicator({

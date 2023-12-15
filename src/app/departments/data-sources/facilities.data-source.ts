@@ -67,41 +67,41 @@ export class FacilitiesDataSource extends DataSource<IFilterListVM> {
             [
                 {
                     id: 105,
-                    title: 'Силосные башни',
+                    title: 'Silo towers',
                     equipments: [
                         {
                             id: 105005,
-                            title: 'Силосная башня № 5'
+                            title: 'Silo tower #5'
                         },
                         {
                             id: 105008,
-                            title: 'Силосная башня № 8'
+                            title: 'Silo tower #8'
                         }
                     ]
                 }, {
                     id: 106,
-                    title: 'Карналлитовый хлоратор',
+                    title: 'Carnalyte Chlorinator',
                     equipments: [
                         {
                             id: 106001,
-                            title: 'Хлоратор №1'
+                            title: 'Chlorinator #1'
                         },
                         {
                             id: 106003,
-                            title: 'Хлоратор №3'
+                            title: 'Chlorinator #3'
                         }
                     ]
                 }, {
                     id: 109,
-                    title: 'Электролизеры',
+                    title: 'Electrolyzers',
                     equipments: [
                         {
                             id: 109001,
-                            title: 'Электролизер № 1'
+                            title: 'Electrolyzer # 1'
                         },
                         {
                             id: 109002,
-                            title: 'Электролизер № 2'
+                            title: 'Electrolyzer # 2'
                         }
                     ]
                 }

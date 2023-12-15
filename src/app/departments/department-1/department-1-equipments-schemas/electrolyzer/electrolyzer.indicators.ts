@@ -4,7 +4,7 @@ import { Indicator } from '../../../components/ppr-page/equipment-schema/equipme
 export let defaultIndicatorsLeft: Indicator[] = [
     new Indicator({
         id: '109001',
-        title: 'Температура ванны',
+        title: 'Bath temperature',
         translate: {
             x: 371,
             y: 111
@@ -12,7 +12,7 @@ export let defaultIndicatorsLeft: Indicator[] = [
     }),
     new Indicator({
         id: '109006',
-        title: 'Сработка',
+        title: 'Drawdown',
         translate: {
             x: 371,
             y: 192
@@ -20,7 +20,7 @@ export let defaultIndicatorsLeft: Indicator[] = [
     }),
     new Indicator({
         id: '109011',
-        title: 'Ток серии',
+        title: 'Series current',
         translate: {
             x: 371,
             y: 272
@@ -36,7 +36,7 @@ export let defaultIndicatorsLeft: Indicator[] = [
     }),
     new Indicator({
         id: '109012',
-        title: 'Ток подпитки',
+        title: 'Feeding current',
         translate: {
             x: 371,
             y: 432
@@ -44,7 +44,7 @@ export let defaultIndicatorsLeft: Indicator[] = [
     }),
     new Indicator({
         id: '109007',
-        title: 'Выход по току',
+        title: 'Current output',
         translate: {
             x: 371,
             y: 512
@@ -68,7 +68,7 @@ export let defaultIndicatorsLeft: Indicator[] = [
     }),
     new Indicator({
         id: '109002',
-        title: 'Уровень',
+        title: 'Level',
         translate: {
             x: 371,
             y: 762
@@ -76,7 +76,7 @@ export let defaultIndicatorsLeft: Indicator[] = [
     }),
     new Indicator({
         id: '109003',
-        title: 'Напряжение',
+        title: 'Voltage',
         translate: {
             x: 371,
             y: 842
@@ -127,7 +127,7 @@ export let defaultIndicatorsRight: Indicator[] = [
     }),
     new Indicator({
         id: '109004',
-        title: 'Температура ХОВ',
+        title: 'HOV temperature',
         translate: {
             x: 1183,
             y: 514.5

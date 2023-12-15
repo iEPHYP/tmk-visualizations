@@ -23,7 +23,7 @@ export class DepartmentMnemoschemeService {
         setTimeout(() => subject.next([
             new Facility({
                 id: 105,
-                title: 'Силосные башни',
+                title: 'Silo towers',
                 label: 'A1',
                 has3Levels: true,
                 status: {
@@ -32,7 +32,7 @@ export class DepartmentMnemoschemeService {
             }),
             new Facility({
                 id: 106,
-                title: 'Карналлитовый Хлоратор',
+                title: 'Carnalyte Chlorinator',
                 label: 'A2',
                 has3Levels: true,
                 status: {
@@ -41,7 +41,7 @@ export class DepartmentMnemoschemeService {
             }),
             new Facility({
                 id: 109,
-                title: 'Электролизеры',
+                title: 'Electrolyzers',
                 label: 'A3',
                 has3Levels: true,
                 status: {
@@ -50,7 +50,7 @@ export class DepartmentMnemoschemeService {
             }),
             new Facility({
                 id: 102,
-                title: 'Печь ПНР',
+                title: 'PPR oven',
                 label: 'A4',
                 status: {
                     stopping: true
@@ -58,7 +58,7 @@ export class DepartmentMnemoschemeService {
             }),
             new Facility({
                 id: 103,
-                title: 'Установка литья магния',
+                title: 'Magnesium casting plant',
                 label: 'A5',
                 status: {
                     deviation: true,
@@ -67,7 +67,7 @@ export class DepartmentMnemoschemeService {
             }),
             new Facility({
                 id: 101,
-                title: 'Хлорная компрессорная',
+                title: 'Chlorine compressor',
                 label: 'A6',
                 status: {
                     normal: true,
@@ -76,7 +76,7 @@ export class DepartmentMnemoschemeService {
             }),
             new Facility({
                 id: 108,
-                title: 'Миксер кристаллизации',
+                title: 'Crystallization mixer',
                 label: 'A7',
                 status: {
                     notWork: true,
@@ -85,7 +85,7 @@ export class DepartmentMnemoschemeService {
             }),
             new Facility({
                 id: 107,
-                title: 'Головной миксер',
+                title: 'Head mixer',
                 label: 'A8',
                 status: {
                     deviation: true,
@@ -94,7 +94,7 @@ export class DepartmentMnemoschemeService {
             }),
             new Facility({
                 id: 112,
-                title: 'Насосные',
+                title: 'Pumps',
                 label: 'A9',
                 status: {
                     deviation: true,
@@ -104,7 +104,7 @@ export class DepartmentMnemoschemeService {
             }),
             new Facility({
                 id: 121,
-                title: 'Участок литья фторфлогопита',
+                title: 'Fluoroflopitis casting site',
                 label: 'A10',
                 status: {
                     deviation: true,

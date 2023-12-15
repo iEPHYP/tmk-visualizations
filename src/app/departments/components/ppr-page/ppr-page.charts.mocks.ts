@@ -5,7 +5,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                 chartData: [
                     {
                         id: "105001",
-                        title: "Уровень карналлита",
+                        title: "Carnalyte level",
                         isNormal: true,
                         measurement: "мм",
                         periodType: "days",
@@ -390,7 +390,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     },
                     {
                         id: "105002",
-                        title: "Масса карналита в Силосе",
+                        title: "Carnalite weight in silo",
                         isNormal: true,
                         measurement: "т",
                         periodType: "days",
@@ -778,7 +778,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-01T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: -7200.0,
@@ -793,7 +793,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-02T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: -7200.0,
@@ -808,7 +808,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-03T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: -7200.0,
@@ -823,7 +823,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-04T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: 19567.800521850586,
@@ -838,7 +838,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-05T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: 19571.400260925293,
@@ -853,7 +853,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-06T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: 19582.199478149414,
@@ -868,7 +868,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-07T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: 19578.599739074707,
@@ -883,7 +883,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-08T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: 19593.000411987305,
@@ -898,7 +898,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-09T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: 19580.400466918945,
@@ -913,7 +913,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-10T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: 19627.200508117676,
@@ -928,7 +928,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-11T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: 19565.999794006348,
@@ -943,7 +943,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-12T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: 19515.60001373291,
@@ -958,7 +958,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-13T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: 19515.60001373291,
@@ -973,7 +973,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-14T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: 19632.599258422852,
@@ -988,7 +988,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-15T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: null,
@@ -1003,7 +1003,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-16T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: null,
@@ -1018,7 +1018,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-17T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: null,
@@ -1033,7 +1033,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-18T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: 16788.599395751953,
@@ -1048,7 +1048,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-19T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: 16912.799835205078,
@@ -1063,7 +1063,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-20T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: 16576.199340820313,
@@ -1078,7 +1078,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-21T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: 15294.599533081055,
@@ -1093,7 +1093,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-22T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: 15069.599533081055,
@@ -1108,7 +1108,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-23T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: 14842.800521850586,
@@ -1123,7 +1123,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-24T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: 14851.800727844238,
@@ -1138,7 +1138,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-25T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: 14851.800727844238,
@@ -1153,7 +1153,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-26T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: 14821.200370788574,
@@ -1168,7 +1168,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-27T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: 14792.400741577148,
@@ -1183,7 +1183,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-28T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: 14799.600219726563,
@@ -1198,7 +1198,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-29T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: 14799.600219726563,
@@ -1213,7 +1213,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-30T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: 14830.200576782227,
@@ -1228,7 +1228,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-01T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 2359.296,
@@ -1243,7 +1243,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-02T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 2359.296,
@@ -1258,7 +1258,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-03T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 2359.296,
@@ -1273,7 +1273,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-04T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 2359.296,
@@ -1288,7 +1288,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-05T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 348.31442587280259,
@@ -1303,7 +1303,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-06T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 348.31442587280259,
@@ -1318,7 +1318,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-07T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 350.34906307983391,
@@ -1333,7 +1333,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-08T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 348.72140505981446,
@@ -1348,7 +1348,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-09T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 352.11255331420887,
@@ -1363,7 +1363,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-10T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 352.11255331420887,
@@ -1378,7 +1378,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-11T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 348.72140505981446,
@@ -1393,7 +1393,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-12T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 349.12825488281254,
@@ -1408,7 +1408,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-13T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 349.12825488281254,
@@ -1423,7 +1423,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-14T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 432.28046749877922,
@@ -1438,7 +1438,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-15T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: null,
@@ -1453,7 +1453,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-16T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: null,
@@ -1468,7 +1468,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-17T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: null,
@@ -1483,7 +1483,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-18T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 551.78642587280285,
@@ -1498,7 +1498,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-19T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 574.84659622192385,
@@ -1513,7 +1513,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-20T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 668.036680114746,
@@ -1528,7 +1528,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-21T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 686.48489401245126,
@@ -1543,7 +1543,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-22T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 700.72787191772466,
@@ -1558,7 +1558,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-23T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 700.1853192443848,
@@ -1573,7 +1573,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-24T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 700.86357476806631,
@@ -1588,7 +1588,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-25T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 702.89821197509764,
@@ -1603,7 +1603,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-26T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 703.57646749877938,
@@ -1618,7 +1618,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-27T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 702.89821197509764,
@@ -1633,7 +1633,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-28T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 702.49136215209955,
@@ -1648,7 +1648,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-29T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 702.49136215209955,
@@ -1663,7 +1663,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-30T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 725.41582965087889,
@@ -1682,7 +1682,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                 chartData: [
                     {
                         id: "105001",
-                        title: "Уровень карналлита",
+                        title: "Carnalyte level",
                         isNormal: true,
                         measurement: "мм",
                         periodType: "days",
@@ -2067,7 +2067,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     },
                     {
                         id: "105002",
-                        title: "Масса карналита в Силосе",
+                        title: "Carnalite weight in silo",
                         isNormal: true,
                         measurement: "т",
                         periodType: "days",
@@ -2455,7 +2455,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-01T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: -7500.0,
@@ -2470,7 +2470,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-02T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: -7500.0,
@@ -2485,7 +2485,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-03T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: -7500.0,
@@ -2500,7 +2500,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-04T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: -7500.0,
@@ -2515,7 +2515,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-05T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: -7500.0,
@@ -2530,7 +2530,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-06T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: -7500.0,
@@ -2545,7 +2545,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-07T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: -7500.0,
@@ -2560,7 +2560,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-08T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: -7500.0,
@@ -2575,7 +2575,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-09T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: -7500.0,
@@ -2590,7 +2590,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-10T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: -7500.0,
@@ -2605,7 +2605,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-11T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: -7500.0,
@@ -2620,7 +2620,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-12T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: -7500.0,
@@ -2635,7 +2635,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-13T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: -7500.0,
@@ -2650,7 +2650,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-14T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: -7500.0,
@@ -2665,7 +2665,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-15T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: null,
@@ -2680,7 +2680,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-16T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: null,
@@ -2695,7 +2695,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-17T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: null,
@@ -2710,7 +2710,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-18T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: -7500.0,
@@ -2725,7 +2725,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-19T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: -7500.0,
@@ -2740,7 +2740,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-20T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: -7500.0,
@@ -2755,7 +2755,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-21T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: -7500.0,
@@ -2770,7 +2770,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-22T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: -7500.0,
@@ -2785,7 +2785,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-23T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: -7500.0,
@@ -2800,7 +2800,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-24T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: -7500.0,
@@ -2815,7 +2815,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-25T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: -7500.0,
@@ -2830,7 +2830,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-26T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: -7500.0,
@@ -2845,7 +2845,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-27T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: -7500.0,
@@ -2860,7 +2860,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-28T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: -7500.0,
@@ -2875,7 +2875,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-29T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: -7500.0,
@@ -2890,7 +2890,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-30T00:00:00",
                         indicatorID: "105001",
-                        indicatorTitle: "Уровень карналлита",
+                        indicatorTitle: "Carnalyte level",
                         mUnit: "мм",
                         lastValue: null,
                         maxValue: -7500.0,
@@ -2905,7 +2905,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-01T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 2381.904,
@@ -2920,7 +2920,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-02T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 2381.904,
@@ -2935,7 +2935,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-03T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 2381.904,
@@ -2950,7 +2950,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-04T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 2381.904,
@@ -2965,7 +2965,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-05T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 2381.904,
@@ -2980,7 +2980,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-06T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 2381.904,
@@ -2995,7 +2995,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-07T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 2381.904,
@@ -3010,7 +3010,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-08T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 2381.904,
@@ -3025,7 +3025,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-09T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 2381.904,
@@ -3040,7 +3040,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-10T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 2381.904,
@@ -3055,7 +3055,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-11T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 2381.904,
@@ -3070,7 +3070,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-12T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 2381.904,
@@ -3085,7 +3085,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-13T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 2381.904,
@@ -3100,7 +3100,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-14T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 2381.904,
@@ -3115,7 +3115,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-15T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: null,
@@ -3130,7 +3130,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-16T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: null,
@@ -3145,7 +3145,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-17T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: null,
@@ -3160,7 +3160,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-18T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 2381.904,
@@ -3175,7 +3175,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-19T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 2381.904,
@@ -3190,7 +3190,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-20T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 2381.904,
@@ -3205,7 +3205,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-21T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 2381.904,
@@ -3220,7 +3220,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-22T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 2381.904,
@@ -3235,7 +3235,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-23T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 2381.904,
@@ -3250,7 +3250,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-24T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 2381.904,
@@ -3265,7 +3265,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-25T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 2381.904,
@@ -3280,7 +3280,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-26T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 2381.904,
@@ -3295,7 +3295,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-27T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 2381.904,
@@ -3310,7 +3310,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-28T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 2381.904,
@@ -3325,7 +3325,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-29T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 2381.904,
@@ -3340,7 +3340,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     {
                         periodValueTime: "2017-09-30T00:00:00",
                         indicatorID: "105002",
-                        indicatorTitle: "Масса карналита в Силосе",
+                        indicatorTitle: "Carnalite weight in silo",
                         mUnit: "т",
                         lastValue: null,
                         maxValue: 2381.904,
@@ -3361,9 +3361,9 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                 chartData: [
                     {
                         id: "106001",
-                        title: "Температура Плавильник",
+                        title: "Melting Point",
                         isNormal: true,
-                        measurement: "Градусы С",
+                        measurement: "Degrees C",
                         periodType: "days",
                         items: [
                             {
@@ -3746,9 +3746,9 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     },
                     {
                         id: "106002",
-                        title: "Температура ХлорКамера",
+                        title: "Chlorcamer temperature",
                         isNormal: true,
-                        measurement: "Градусы С",
+                        measurement: "Degrees C",
                         periodType: "days",
                         items: [
                             {
@@ -4131,9 +4131,9 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     },
                     {
                         id: "106003",
-                        title: "Температура Миксер",
+                        title: "Mixer temperature",
                         isNormal: true,
-                        measurement: "Градусы С",
+                        measurement: "Degrees C",
                         periodType: "days",
                         items: [
                             {
@@ -4516,9 +4516,9 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     },
                     {
                         id: "106004",
-                        title: "Температура Сливная летка",
+                        title: "Discharge temperature",
                         isNormal: true,
-                        measurement: "Градусы С",
+                        measurement: "Degrees C",
                         periodType: "days",
                         items: [
                             {
@@ -4906,7 +4906,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                 chartData: [
                     {
                         id: "106007",
-                        title: "Уровень карналита в бункере хлоратора",
+                        title: "Carnalite level in chlorinator bunker",
                         isNormal: true,
                         measurement: "мм",
                         periodType: "days",
@@ -5291,7 +5291,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     },
                     {
                         id: "106008",
-                        title: "Давление хлора в н/н №1 карн.отд.",
+                        title: "Chlorine pressure in n/n 1 karn.d.",
                         isNormal: true,
                         measurement: "кг/см2",
                         periodType: "days",
@@ -5676,7 +5676,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     },
                     {
                         id: "106009",
-                        title: "Давление хлора в н/н №2 карн.отд.",
+                        title: "Chlorine pressure in n/n 2 carbons.",
                         isNormal: true,
                         measurement: "кг/см2",
                         periodType: "days",
@@ -6061,7 +6061,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     },
                     {
                         id: "106010",
-                        title: "Масса карналита в бункере хлоратора",
+                        title: "Mass of carnalite in chlorinator bunker",
                         isNormal: true,
                         measurement: "т",
                         periodType: "days",
@@ -6453,9 +6453,9 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                 chartData: [
                     {
                         id: "109001",
-                        title: "Температура ванны",
+                        title: "Bath temperature",
                         isNormal: false,
-                        measurement: "Градусы С",
+                        measurement: "Degrees C",
                         periodType: "days",
                         items: [
                             {
@@ -6887,7 +6887,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     },
                     {
                         id: "109002",
-                        title: "Уровень",
+                        title: "Level",
                         isNormal: false,
                         measurement: "Деление",
                         periodType: "days",
@@ -7336,7 +7336,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     },
                     {
                         id: "109003",
-                        title: "Напряжение",
+                        title: "Voltage",
                         isNormal: false,
                         measurement: "Вольт",
                         periodType: "days",
@@ -7743,9 +7743,9 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     },
                     {
                         id: "109004",
-                        title: "Температура ХОВ",
+                        title: "HOV temperature",
                         isNormal: false,
-                        measurement: "Градусы С",
+                        measurement: "Degrees C",
                         periodType: "days",
                         items: [
                             {
@@ -8185,9 +8185,9 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                 chartData: [
                     {
                         id: "109001",
-                        title: "Температура ванны",
+                        title: "Bath temperature",
                         isNormal: false,
-                        measurement: "Градусы С",
+                        measurement: "Degrees C",
                         periodType: "days",
                         items: [
                             {
@@ -8673,7 +8673,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     },
                     {
                         id: "109002",
-                        title: "Уровень",
+                        title: "Level",
                         isNormal: false,
                         measurement: "Деление",
                         periodType: "days",
@@ -9080,7 +9080,7 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     },
                     {
                         id: "109003",
-                        title: "Напряжение",
+                        title: "Voltage",
                         isNormal: false,
                         measurement: "Вольт",
                         periodType: "days",
@@ -9487,9 +9487,9 @@ export function getMocks(facilityId: number, equipmentId: number): Object {
                     },
                     {
                         id: "109004",
-                        title: "Температура ХОВ",
+                        title: "HOV temperature",
                         isNormal: false,
-                        measurement: "Градусы С",
+                        measurement: "Degrees C",
                         periodType: "days",
                         items: [
                             {

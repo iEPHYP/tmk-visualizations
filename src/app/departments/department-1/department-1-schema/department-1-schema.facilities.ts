@@ -6,7 +6,7 @@ const columns: number[] = [87, 247, 407, 567, 727];
 export let defaultFacilities: Facility[] = [
     new Facility({
         id: 105,
-        title: 'Силосные башни',
+        title: 'Silo towers',
         label: 'A1',
         routes: ['route17', ],
         x: columns[0],
@@ -14,7 +14,7 @@ export let defaultFacilities: Facility[] = [
     }),
     new Facility({
         id: 106,
-        title: 'Карналлитовый Хлоратор',
+        title: 'Carnalyte Chlorinator',
         label: 'A2',
         routes: ['route4', 'route11', 'route17', ],
         x: columns[1],
@@ -22,7 +22,7 @@ export let defaultFacilities: Facility[] = [
     }),
     new Facility({
         id: 109,
-        title: 'Электролизеры',
+        title: 'Electrolyzers',
         label: 'A3',
         routes: ['route7', 'route12', 'route13', 'route14', 'route19', 'route21', 'route22', ],
         x: columns[2],
@@ -30,7 +30,7 @@ export let defaultFacilities: Facility[] = [
     }),
     new Facility({
         id: 102,
-        title: 'Печь ПНР',
+        title: 'PPR oven',
         label: 'A4',
         routes: ['route9', 'route15', 'route18', ],
         x: columns[3],
@@ -38,7 +38,7 @@ export let defaultFacilities: Facility[] = [
     }),
     new Facility({
         id: 103,
-        title: 'Установка литья магния',
+        title: 'Magnesium casting plant',
         label: 'A5',
         routes: ['route1', 'route3', 'route8', ],
         x: columns[4],
@@ -46,7 +46,7 @@ export let defaultFacilities: Facility[] = [
     }),
     new Facility({
         id: 101,
-        title: 'Хлорная компрессорная',
+        title: 'Chlorine compressor',
         label: 'A6',
         routes: ['route5', ],
         x: columns[0],
@@ -54,7 +54,7 @@ export let defaultFacilities: Facility[] = [
     }),
     new Facility({
         id: 108,
-        title: 'Миксер кристаллизации',
+        title: 'Crystallization mixer',
         label: 'A7',
         routes: ['route6', ],
         x: columns[1],
@@ -62,7 +62,7 @@ export let defaultFacilities: Facility[] = [
     }),
     new Facility({
         id: 107,
-        title: 'Головной миксер',
+        title: 'Head mixer',
         label: 'A8',
         routes: ['route21', 'route22', ],
         x: columns[2],
@@ -70,7 +70,7 @@ export let defaultFacilities: Facility[] = [
     }),
     new Facility({
         id: 112,
-        title: 'Насосные',
+        title: 'Pumps',
         label: 'A9',
         routes: [],
         x: columns[3],
@@ -78,7 +78,7 @@ export let defaultFacilities: Facility[] = [
     }),
     new Facility({
         id: 121,
-        title: 'Участок литья фторфлогопита',
+        title: 'Fluoroflopitis casting site',
         label: 'A10',
         routes: ['route10', 'route20', ],
         x: columns[4],

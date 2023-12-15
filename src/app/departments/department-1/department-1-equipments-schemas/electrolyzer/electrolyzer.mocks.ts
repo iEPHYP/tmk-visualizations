@@ -5,21 +5,21 @@ export let mocks = (equipmentId: number): Indicator[] => {
         return [
             new Indicator({
                 'id': '109001',
-                'title': 'Температура ванны',
+                'title': 'Bath temperature',
                 'value': 665.4000244140625,
                 'percentage': 47.857230050223208,
                 'equipmentId': 109001,
                 'equipmentTitle': ' Электролизер № 1',
                 'equipmentShortTitle': '',
                 'indicatorId': 109001,
-                'units': 'Градусы С',
+                'units': 'Degrees C',
                 'minValue': 652.0,
                 'maxValue': 680.0,
                 'status': 1
             }),
             new Indicator({
                 'id': '109002',
-                'title': 'Уровень',
+                'title': 'Level',
                 'value': 4.8773206281662027,
                 'percentage': 57.311005234718358,
                 'equipmentId': 109001,
@@ -33,7 +33,7 @@ export let mocks = (equipmentId: number): Indicator[] => {
             }),
             new Indicator({
                 'id': '109003',
-                'title': 'Напряжение',
+                'title': 'Voltage',
                 'value': 5.1560001182556157,
                 'percentage': 38.90909628434617,
                 'equipmentId': 109001,
@@ -47,14 +47,14 @@ export let mocks = (equipmentId: number): Indicator[] => {
             }),
             new Indicator({
                 'id': '109004',
-                'title': 'Температура ХОВ',
+                'title': 'HOV temperature',
                 'value': 62.074995040893555,
                 'percentage': 45.821421486990793,
                 'equipmentId': 109001,
                 'equipmentTitle': ' Электролизер № 1',
                 'equipmentShortTitle': '',
                 'indicatorId': 109004,
-                'units': 'Градусы С',
+                'units': 'Degrees C',
                 'minValue': 30.0,
                 'maxValue': 100.0,
                 'status': 1
@@ -75,7 +75,7 @@ export let mocks = (equipmentId: number): Indicator[] => {
             }),
             new Indicator({
                 'id': '109006',
-                'title': 'Сработка',
+                'title': 'Drawdown',
                 'value': 1.3,
                 'percentage': null,
                 'equipmentId': 109001,
@@ -89,7 +89,7 @@ export let mocks = (equipmentId: number): Indicator[] => {
             }),
             new Indicator({
                 'id': '109007',
-                'title': 'Выход по току',
+                'title': 'Current output',
                 'value': 95.03,
                 'percentage': null,
                 'equipmentId': 109001,
@@ -117,7 +117,7 @@ export let mocks = (equipmentId: number): Indicator[] => {
             }),
             new Indicator({
                 'id': '109011',
-                'title': 'Ток серии',
+                'title': 'Series current',
                 'value': null,
                 'percentage': null,
                 'equipmentId': 109001,
@@ -131,7 +131,7 @@ export let mocks = (equipmentId: number): Indicator[] => {
             }),
             new Indicator({
                 'id': '109012',
-                'title': 'Ток подпитки',
+                'title': 'Feeding current',
                 'value': null,
                 'percentage': null,
                 'equipmentId': 109001,
@@ -246,21 +246,21 @@ export let mocks = (equipmentId: number): Indicator[] => {
         return [
             new Indicator({
                 'id': '109001',
-                'title': 'Температура ванны',
+                'title': 'Bath temperature',
                 'value': 26.5,
                 'percentage': 0.0,
                 'equipmentId': 109002,
                 'equipmentTitle': ' Электролизер № 2',
                 'equipmentShortTitle': '',
                 'indicatorId': 109001,
-                'units': 'Градусы С',
+                'units': 'Degrees C',
                 'minValue': 652.0,
                 'maxValue': 680.0,
                 'status': 0
             }),
             new Indicator({
                 'id': '109002',
-                'title': 'Уровень',
+                'title': 'Level',
                 'value': -24.7,
                 'percentage': 0.0,
                 'equipmentId': 109002,
@@ -274,7 +274,7 @@ export let mocks = (equipmentId: number): Indicator[] => {
             }),
             new Indicator({
                 'id': '109003',
-                'title': 'Напряжение',
+                'title': 'Voltage',
                 'value': 0.0,
                 'percentage': 0.0,
                 'equipmentId': 109002,
@@ -288,14 +288,14 @@ export let mocks = (equipmentId: number): Indicator[] => {
             }),
             new Indicator({
                 'id': '109004',
-                'title': 'Температура ХОВ',
+                'title': 'HOV temperature',
                 'value': 16.474997997283936,
                 'percentage': 0.0,
                 'equipmentId': 109002,
                 'equipmentTitle': ' Электролизер № 2',
                 'equipmentShortTitle': '',
                 'indicatorId': 109004,
-                'units': 'Градусы С',
+                'units': 'Degrees C',
                 'minValue': 30.0,
                 'maxValue': 100.0,
                 'status': 0
@@ -316,7 +316,7 @@ export let mocks = (equipmentId: number): Indicator[] => {
             }),
             new Indicator({
                 'id': '109006',
-                'title': 'Сработка',
+                'title': 'Drawdown',
                 'value': 1.27,
                 'percentage': 0.0,
                 'equipmentId': 109002,
@@ -330,7 +330,7 @@ export let mocks = (equipmentId: number): Indicator[] => {
             }),
             new Indicator({
                 'id': '109007',
-                'title': 'Выход по току',
+                'title': 'Current output',
                 'value': 80.74,
                 'percentage': 0.0,
                 'equipmentId': 109002,
@@ -358,7 +358,7 @@ export let mocks = (equipmentId: number): Indicator[] => {
             }),
             new Indicator({
                 'id': '109011',
-                'title': 'Ток серии',
+                'title': 'Series current',
                 'value': null,
                 'percentage': 0.0,
                 'equipmentId': 109002,
@@ -372,7 +372,7 @@ export let mocks = (equipmentId: number): Indicator[] => {
             }),
             new Indicator({
                 'id': '109012',
-                'title': 'Ток подпитки',
+                'title': 'Feeding current',
                 'value': null,
                 'percentage': 0.0,
                 'equipmentId': 109002,
