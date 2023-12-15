@@ -5,7 +5,7 @@
   "homepage": "https://iephyp.github.io/tmk-visualizations",
   "scripts": {
     "start": "npm run start:debug",
-    "build": "ng build --aot --environment=prod --target=production",
+    "build": "ng build --prod --base-href=/tmk-visualizations/",
     "lint": "ng lint",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
