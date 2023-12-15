@@ -1,8 +1,9 @@
 
-# TMK [live demo](https://iephyp.github.io/tmk-visualizations/)
+# TMK
 Old Angular Portfolio project (2017) with Screenshots and Gifs
 
-## TMK demo
+## TMK [live demo](https://iephyp.github.io/tmk-visualizations/)
+
 ![tmk demo](./src/assets/tmk-demo.gif)
 
 ## Other charts from Oil and Gas projects
